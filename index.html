@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love and Population: Singapore's Marriage and Future</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.21/fullpage.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.21/fullpage.min.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      z-index: 1000;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.3s ease;
+    }
+    nav:hover {
+      background: rgba(0, 0, 0, 0.9);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #4facfe;
+    }
+    .section {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      opacity: 0;
+      transform: scale(0.9);
+      transition: all 1s ease;
+    }
+    .fp-section.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+    #cover {
+      background: linear-gradient(120deg, #1a2980, #26d0ce);
+      color: white;
+    }
+    #intro {
+      background: linear-gradient(120deg, #ff7e5f, #feb47b);
+      color: white;
+    }
+    #section1 {
+      background: linear-gradient(120deg, #007BFF, #00C6FF);
+      color: white;
+    }
+    #section2 {
+      background: linear-gradient(120deg, #a1ffce, #faffd1);
+      color: #333;
+    }
+    #section3 {
+      background: linear-gradient(120deg, #ff512f, #dd2476);
+      color: white;
+    }
+    #summary {
+      background: linear-gradient(120deg, #4facfe, #00f2fe);
+      color: white;
+    }
+    .chart-container {
+      width: 80%;
+      height: 400px;
+      margin: 20px auto;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>Love & Population</div>
+    <div>
+      <a href="#cover">Cover</a>
+      <a href="#intro">Introduction</a>
+      <a href="#section1">Trends</a>
+      <a href="#section2">Structure</a>
+      <a href="#section3">Urban Dynamics</a>
+      <a href="#summary">Summary</a>
+    </div>
+  </nav>
+
+  <div id="fullpage">
+    <div class="section" id="cover">
+      <div>
+        <h1>Love and Population: Singapore's Marriage and Future</h1>
+        <p>Exploring Population Trends and Marriage Stories in Singapore's Society</p>
+        <p>Scroll Down to Begin</p>
+      </div>
+    </div>
+    <div class="section" id="intro">
+      <div>
+        <h1>Introduction</h1>
+        <p>Population changes are more than just numerical fluctuations—they are a comprehensive reflection of social culture and economic policies.</p>
+      </div>
+    </div>
+    <div class="section" id="section1">
+      <div>
+        <h2>East Asian Marriage Trends</h2>
+        <p>Comparative Analysis of Divorce and Fertility Rates: Singapore vs Japan and South Korea</p>
+        <div class="chart-container" id="chart1"></div>
+      </div>
+    </div>
+    <div class="section" id="section2">
+      <div>
+        <h2>Population Structure</h2>
+        <p>Examining the Age Distribution in Singapore</p>
+        <div class="chart-container" id="chart2"></div>
+      </div>
+    </div>
+    <div class="section" id="section3">
+      <div>
+        <h2>Migration and Urban Dynamics</h2>
+        <p>Migrants Sustain Cities: But Where Do They Reside?</p>
+        <div class="chart-container" id="chart3"></div>
+      </div>
+    </div>
+    <div class="section" id="summary">
+      <div>
+        <h2>Summary</h2>
+        <p>The future is written by each of us, collectively creating a better society.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        autoScrolling: true,
+        scrollingSpeed: 1000,
+        navigation: true,
+        navigationPosition: 'right',
+        anchors: ['cover', 'intro', 'section1', 'section2', 'section3', 'summary'],
+        menu: 'nav',
+        scrollBar: true,
+        
+        afterLoad: function(origin, destination, direction){
+          $(destination.item).addClass('active');
+        },
+        
+        onLeave: function(origin, destination, direction){
+          $(origin.item).removeClass('active');
+        }
+      });
+    });
+
+    function createDummyChart(containerId) {
+      const container = d3.select(`#${containerId}`);
+      const width = container.node().clientWidth;
+      const height = container.node().clientHeight;
+
+      const svg = container.append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      svg.append('rect')
+        .attr('width', width)
+        .attr('height', height)
+        .attr('fill', 'rgba(255,255,255,0.2)');
+
+      svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', height / 2)
+        .attr('text-anchor', 'middle')
+        .attr('alignment-baseline', 'middle')
+        .text('Chart Placeholder')
+        .attr('fill', 'white');
+    }
+
+    createDummyChart('chart1');
+    createDummyChart('chart2');
+    createDummyChart('chart3');
+  </script>
+</body>
+</html>
