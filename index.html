@@ -1,205 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Love and Population: Singapore's Marriage and Future</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.21/fullpage.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.21/fullpage.min.css" />
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-      overflow: hidden;
-    }
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0, 0, 0, 0.7);
-      color: white;
-      z-index: 1000;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      transition: background 0.3s ease;
-    }
-    nav:hover {
-      background: rgba(0, 0, 0, 0.9);
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-      font-size: 14px;
-      transition: color 0.3s ease;
-    }
-    nav a:hover {
-      color: #4facfe;
-    }
-    .section {
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 20px;
-      opacity: 0;
-      transform: scale(0.9);
-      transition: all 1s ease;
-    }
-    .fp-section.active {
-      opacity: 1;
-      transform: scale(1);
-    }
-    #cover {
-      background: linear-gradient(120deg, #1a2980, #26d0ce);
-      color: white;
-    }
-    #intro {
-      background: linear-gradient(120deg, #ff7e5f, #feb47b);
-      color: white;
-    }
-    #section1 {
-      background: linear-gradient(120deg, #007BFF, #00C6FF);
-      color: white;
-    }
-    #section2 {
-      background: linear-gradient(120deg, #a1ffce, #faffd1);
-      color: #333;
-    }
-    #section3 {
-      background: linear-gradient(120deg, #ff512f, #dd2476);
-      color: white;
-    }
-    #summary {
-      background: linear-gradient(120deg, #4facfe, #00f2fe);
-      color: white;
-    }
-    .chart-container {
-      width: 80%;
-      height: 400px;
-      margin: 20px auto;
-    }
-    h1, h2 {
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 18px;
-      max-width: 800px;
-      margin: 10px auto;
-      line-height: 1.6;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Parallax Scrolling</title>
 </head>
 <body>
-  <nav>
-    <div>Love & Population</div>
-    <div>
-      <a href="#cover">Cover</a>
-      <a href="#intro">Introduction</a>
-      <a href="#section1">Trends</a>
-      <a href="#section2">Structure</a>
-      <a href="#section3">Urban Dynamics</a>
-      <a href="#summary">Summary</a>
-    </div>
-  </nav>
+    <div class="container">
+        <section id="img-one" class="img">
+            <h1>NOW, AGING POPULATION</h1>
+        </section>
+        <section class="content-one">
+            <div class="text-box">
+                <div class="cnt">
+                <h2>HUGE DILEMMA</h2>
+                <p>
+                    Japan's marriage rate has continued to decline since the 1970s, falling to 4.1 couples per 1,000 people in 2022,about half of the peak in 1970. This trend
+                    is closely related to a variety of social and economic factors.This decline in marriage rates has also contributed to Japan's falling birthrate, as fewer marriages
+                    often lead to fewer births,exacerbating the country's demographic challenges. The 727,277 babies born in Japan in 2023 were down 5.6% from the previous year, 
+                    the ministry said — the lowest since Japan started compiling the statistics in 1899.
+                    However, are these just the dilemmas that Japan is facing?
 
-  <div id="fullpage">
-    <div class="section" id="cover">
-      <div>
-        <h1>Love and Population: Singapore's Marriage and Future</h1>
-        <p>Exploring Population Trends and Marriage Stories in Singapore's Society</p>
-        <p>Scroll Down to Begin</p>
-      </div>
-    </div>
-    <div class="section" id="intro">
-      <div>
-        <h1>Introduction</h1>
-        <p>Population changes are more than just numerical fluctuations—they are a comprehensive reflection of social culture and economic policies.</p>
-      </div>
-    </div>
-    <div class="section" id="section1">
-      <div>
-        <h2>East Asian Marriage Trends</h2>
-        <p>Comparative Analysis of Divorce and Fertility Rates: Singapore vs Japan and South Korea</p>
-        <div class="chart-container" id="chart1"></div>
-      </div>
-    </div>
-    <div class="section" id="section2">
-      <div>
-        <h2>Population Structure</h2>
-        <p>Examining the Age Distribution in Singapore</p>
-        <div class="chart-container" id="chart2"></div>
-      </div>
-    </div>
-    <div class="section" id="section3">
-      <div>
-        <h2>Migration and Urban Dynamics</h2>
-        <p>Migrants Sustain Cities: But Where Do They Reside?</p>
-        <div class="chart-container" id="chart3"></div>
-      </div>
-    </div>
-    <div class="section" id="summary">
-      <div>
-        <h2>Summary</h2>
-        <p>The future is written by each of us, collectively creating a better society.</p>
-      </div>
-    </div>
-  </div>
+                </p>
+                <p>
+                    <a href="#" class="btn">THE ANSWER IS<strong><em>NO</em></strong></a>
+                </p>
+            </div>
+            </div>
+        </section>
+        <section class="content-two">
+            <div class="text-box">
+                <div class="cnt">
+                <h2>China, Japan and South Korea</h2>
+                <p>
+                    South Korea's birth rate has fallen steadily since 2015. Last year was the third in a row in which Asia's fourth-largest economy saw more deaths than births.
+                    The average number of children a woman in South Korea had follen to 0.78 in 2022, down from 0.81 a year earlier — far below the rate of 2.1 needed to maintain natural population growth.                     
+                    Japan has long been stymied by demographic problems, particularly with its fast-growing elderly population. The issue has such an impact that Japanese Prime Minister Fumio Kishida even said in January that the country is on the verge of social dysfunction.                    
+                    The Chinese are also having fewer children, delaying childbirth, or not having kids at all. Last year, the country's population dropped for the first time in six decades. 
+                    
+                </p>
+                <p>
+                    <a href="#" class="btn">HOW<strong>, </strong><em>EXACTLY?</em></a>
+                </p>
+            </div>
+            </div>
+        </section>
+        <section class="content-three">
+            <div class="text-box">
+                <div class="cnt">
+                <h2>POPULATION AGING</h2>
+                <p>
+                    By 2050, one in three people in East Asia could be over the age of 65, according to the United Nations World Population Prospects.
+                    Falling birth rates are not the only demographic-related predicament that East Asia is facing. In Japan, nearly a third of the population is made up of people aged 65 and older.
+                    The country also has one of the world's highest life expectancies. In 2022, almost one in 1,500 Japanese people were at least 100 years old, compared with roughly one per 5,000 people globally. Aging in East Asia will pose many challenges, such as a shrinking workforce, increased pressure on social protection systems, and slowing economic growth.
 
-  <script>
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        autoScrolling: true,
-        scrollingSpeed: 1000,
-        navigation: true,
-        navigationPosition: 'right',
-        anchors: ['cover', 'intro', 'section1', 'section2', 'section3', 'summary'],
-        menu: 'nav',
-        scrollBar: true,
-        
-        afterLoad: function(origin, destination, direction){
-          $(destination.item).addClass('active');
-        },
-        
-        onLeave: function(origin, destination, direction){
-          $(origin.item).removeClass('active');
-        }
-      });
-    });
 
-    function createDummyChart(containerId) {
-      const container = d3.select(`#${containerId}`);
-      const width = container.node().clientWidth;
-      const height = container.node().clientHeight;
-
-      const svg = container.append('svg')
-        .attr('width', width)
-        .attr('height', height);
-
-      svg.append('rect')
-        .attr('width', width)
-        .attr('height', height)
-        .attr('fill', 'rgba(255,255,255,0.2)');
-
-      svg.append('text')
-        .attr('x', width / 2)
-        .attr('y', height / 2)
-        .attr('text-anchor', 'middle')
-        .attr('alignment-baseline', 'middle')
-        .text('Chart Placeholder')
-        .attr('fill', 'white');
-    }
-
-    createDummyChart('chart1');
-    createDummyChart('chart2');
-    createDummyChart('chart3');
-  </script>
+                </p>
+                <p>
+                    <a href="#" class="btn"><strong><em>WHY?</em></strong></a>
+                </p>
+            </div>
+            </div>
+        </section>
+        <section id="img-two" class="img">
+            <h1>FACING THESE PROBLEMS ?</h1>
+        </section>
+        <section id="footer">IN SINGAPORE</section>
+    </div>
 </body>
 </html>
