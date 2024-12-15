@@ -1,0 +1,1016 @@
+{
+  "singapore_marriage_data": {
+    "data_source": "Singapore Department of Statistics",
+    "update_time": "2023",
+    "annual_data": [
+      {
+        "year": "2023",
+        "total_population": {
+          "total": 3553200,
+          "single": 1056000,
+          "married": 2175100,
+          "widowed": 167900,
+          "divorced": null
+        },
+        "males": {
+          "total": 1716100,
+          "single": 543500,
+          "married": 1082700,
+          "widowed": 32500,
+          "divorced": null
+        },
+        "females": {
+          "total": 1837100,
+          "single": 512600,
+          "married": 1092400,
+          "widowed": 135400,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2022",
+        "total_population": {
+          "total": 3484100,
+          "single": 997800,
+          "married": 2151900,
+          "widowed": 170500,
+          "divorced": null
+        },
+        "males": {
+          "total": 1688800,
+          "single": 505400,
+          "married": 1094900,
+          "widowed": 30800,
+          "divorced": null
+        },
+        "females": {
+          "total": 1795300,
+          "single": 492400,
+          "married": 1057000,
+          "widowed": 139700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2021",
+        "total_population": {
+          "total": 3402200,
+          "single": 1063300,
+          "married": 2042600,
+          "widowed": 155900,
+          "divorced": null
+        },
+        "males": {
+          "total": 1653300,
+          "single": 541300,
+          "married": 1031700,
+          "widowed": 29600,
+          "divorced": null
+        },
+        "females": {
+          "total": 1748900,
+          "single": 522000,
+          "married": 1010900,
+          "widowed": 126300,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2020",
+        "total_population": {
+          "total": 3459100,
+          "single": 1090700,
+          "married": 2035400,
+          "widowed": 183200,
+          "divorced": null
+        },
+        "males": {
+          "total": 1663600,
+          "single": 553200,
+          "married": 1023300,
+          "widowed": 32200,
+          "divorced": null
+        },
+        "females": {
+          "total": 1795500,
+          "single": 537500,
+          "married": 1012100,
+          "widowed": 151000,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2019",
+        "total_population": {
+          "total": 3422400,
+          "single": 1058900,
+          "married": 2055300,
+          "widowed": 167900,
+          "divorced": null
+        },
+        "males": {
+          "total": 1659800,
+          "single": 546200,
+          "married": 1034600,
+          "widowed": 31100,
+          "divorced": null
+        },
+        "females": {
+          "total": 1762600,
+          "single": 512700,
+          "married": 1020700,
+          "widowed": 136800,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2018",
+        "total_population": {
+          "total": 3386400,
+          "single": 1057200,
+          "married": 2026800,
+          "widowed": 170300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1644000,
+          "single": 544200,
+          "married": 1025100,
+          "widowed": 30500,
+          "divorced": null
+        },
+        "females": {
+          "total": 1742400,
+          "single": 513000,
+          "married": 1001700,
+          "widowed": 139800,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2017",
+        "total_population": {
+          "total": 3353200,
+          "single": 1034700,
+          "married": 2018400,
+          "widowed": 180200,
+          "divorced": null
+        },
+        "males": {
+          "total": 1630100,
+          "single": 531100,
+          "married": 1026300,
+          "widowed": 31700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1723100,
+          "single": 503500,
+          "married": 992200,
+          "widowed": 148500,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2016",
+        "total_population": {
+          "total": 3318500,
+          "single": 1049200,
+          "married": 1974700,
+          "widowed": 174600,
+          "divorced": null
+        },
+        "males": {
+          "total": 1607500,
+          "single": 539700,
+          "married": 993900,
+          "widowed": 29900,
+          "divorced": null
+        },
+        "females": {
+          "total": 1711000,
+          "single": 509600,
+          "married": 980800,
+          "widowed": 144700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2015",
+        "total_population": {
+          "total": 3275900,
+          "single": 1034500,
+          "married": 1945600,
+          "widowed": 172100,
+          "divorced": null
+        },
+        "males": {
+          "total": 1589600,
+          "single": 533200,
+          "married": 984700,
+          "widowed": 28900,
+          "divorced": null
+        },
+        "females": {
+          "total": 1686300,
+          "single": 501300,
+          "married": 960900,
+          "widowed": 143200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2014",
+        "total_population": {
+          "total": 3259800,
+          "single": 1048100,
+          "married": 1940100,
+          "widowed": 161100,
+          "divorced": null
+        },
+        "males": {
+          "total": 1583900,
+          "single": 538500,
+          "married": 980800,
+          "widowed": 27300,
+          "divorced": null
+        },
+        "females": {
+          "total": 1675900,
+          "single": 509600,
+          "married": 959200,
+          "widowed": 133700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2013",
+        "total_population": {
+          "total": 3205900,
+          "single": 1029300,
+          "married": 1911500,
+          "widowed": 158000,
+          "divorced": null
+        },
+        "males": {
+          "total": 1560900,
+          "single": 535100,
+          "married": 963100,
+          "widowed": 25700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1645000,
+          "single": 494100,
+          "married": 948400,
+          "widowed": 132300,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2012",
+        "total_population": {
+          "total": 3183000,
+          "single": 1022600,
+          "married": 1899000,
+          "widowed": 152300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1550000,
+          "single": 534700,
+          "married": 952200,
+          "widowed": 25700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1633000,
+          "single": 487900,
+          "married": 946800,
+          "widowed": 126700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2011",
+        "total_population": {
+          "total": 3148700,
+          "single": 1012000,
+          "married": 1875900,
+          "widowed": 157700,
+          "divorced": null
+        },
+        "males": {
+          "total": 1534200,
+          "single": 529600,
+          "married": 944300,
+          "widowed": 25700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1614500,
+          "single": 482400,
+          "married": 931600,
+          "widowed": 132000,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2010",
+        "total_population": {
+          "total": 3105700,
+          "single": 1000500,
+          "married": 1844600,
+          "widowed": 157600,
+          "divorced": null
+        },
+        "males": {
+          "total": 1517400,
+          "single": 527100,
+          "married": 928400,
+          "widowed": 24900,
+          "divorced": null
+        },
+        "females": {
+          "total": 1588300,
+          "single": 473400,
+          "married": 916300,
+          "widowed": 132700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2009",
+        "total_population": {
+          "total": 3034800,
+          "single": 957600,
+          "married": 1831300,
+          "widowed": 152700,
+          "divorced": null
+        },
+        "males": {
+          "total": 1477500,
+          "single": 505100,
+          "married": 913300,
+          "widowed": 26600,
+          "divorced": null
+        },
+        "females": {
+          "total": 1557300,
+          "single": 452400,
+          "married": 918000,
+          "widowed": 126000,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2008",
+        "total_population": {
+          "total": 2938800,
+          "single": 918700,
+          "married": 1783700,
+          "widowed": 146900,
+          "divorced": null
+        },
+        "males": {
+          "total": 1437200,
+          "single": 488900,
+          "married": 896300,
+          "widowed": 22700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1501600,
+          "single": 429800,
+          "married": 887400,
+          "widowed": 124200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2007",
+        "total_population": {
+          "total": 2944600,
+          "single": 918400,
+          "married": 1787100,
+          "widowed": 155600,
+          "divorced": null
+        },
+        "males": {
+          "total": 1438300,
+          "single": 487500,
+          "married": 894700,
+          "widowed": 26400,
+          "divorced": null
+        },
+        "females": {
+          "total": 1506400,
+          "single": 430900,
+          "married": 892400,
+          "widowed": 129100,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2006",
+        "total_population": {
+          "total": 2892800,
+          "single": 903300,
+          "married": 1757600,
+          "widowed": 150300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1419000,
+          "single": 482700,
+          "married": 883500,
+          "widowed": 24200,
+          "divorced": null
+        },
+        "females": {
+          "total": 1473700,
+          "single": 420600,
+          "married": 874100,
+          "widowed": 126100,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2005",
+        "total_population": {
+          "total": 2770300,
+          "single": 858100,
+          "married": 1700500,
+          "widowed": 135300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1357400,
+          "single": 460700,
+          "married": 847000,
+          "widowed": 21100,
+          "divorced": null
+        },
+        "females": {
+          "total": 1412900,
+          "single": 397400,
+          "married": 853500,
+          "widowed": 114200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2004",
+        "total_population": {
+          "total": 2739800,
+          "single": 844100,
+          "married": 1678700,
+          "widowed": 150800,
+          "divorced": null
+        },
+        "males": {
+          "total": 1343400,
+          "single": 453000,
+          "married": 846800,
+          "widowed": 22500,
+          "divorced": null
+        },
+        "females": {
+          "total": 1396400,
+          "single": 391100,
+          "married": 831900,
+          "widowed": 128200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2003",
+        "total_population": {
+          "total": 2698000,
+          "single": 825200,
+          "married": 1660300,
+          "widowed": 150700,
+          "divorced": null
+        },
+        "males": {
+          "total": 1323100,
+          "single": 441800,
+          "married": 835700,
+          "widowed": 24500,
+          "divorced": null
+        },
+        "females": {
+          "total": 1374800,
+          "single": 383400,
+          "married": 824600,
+          "widowed": 126200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2002",
+        "total_population": {
+          "total": 2621200,
+          "single": 797200,
+          "married": 1622400,
+          "widowed": 143300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1286600,
+          "single": 428700,
+          "married": 814200,
+          "widowed": 23600,
+          "divorced": null
+        },
+        "females": {
+          "total": 1334700,
+          "single": 368600,
+          "married": 808200,
+          "widowed": 119700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2001",
+        "total_population": {
+          "total": 2554000,
+          "single": 774300,
+          "married": 1576200,
+          "widowed": 145100,
+          "divorced": null
+        },
+        "males": {
+          "total": 1254300,
+          "single": 418500,
+          "married": 793100,
+          "widowed": 23200,
+          "divorced": null
+        },
+        "females": {
+          "total": 1299700,
+          "single": 355800,
+          "married": 783000,
+          "widowed": 122000,
+          "divorced": null
+        }
+      },
+      {
+        "year": "2000",
+        "total_population": {
+          "total": 2494600,
+          "single": 760400,
+          "married": 1543200,
+          "widowed": 129200,
+          "divorced": null
+        },
+        "males": {
+          "total": 1229800,
+          "single": 413300,
+          "married": 771000,
+          "widowed": 22600,
+          "divorced": null
+        },
+        "females": {
+          "total": 1264900,
+          "single": 347000,
+          "married": 772300,
+          "widowed": 106700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1999",
+        "total_population": {
+          "total": 2490100,
+          "single": 769300,
+          "married": 1528700,
+          "widowed": 144900,
+          "divorced": null
+        },
+        "males": {
+          "total": 1229200,
+          "single": 420200,
+          "married": 768500,
+          "widowed": 24400,
+          "divorced": null
+        },
+        "females": {
+          "total": 1260900,
+          "single": 349100,
+          "married": 760200,
+          "widowed": 120500,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1998",
+        "total_population": {
+          "total": 2449700,
+          "single": 767500,
+          "married": 1510000,
+          "widowed": 133800,
+          "divorced": null
+        },
+        "males": {
+          "total": 1204300,
+          "single": 417700,
+          "married": 751100,
+          "widowed": 22700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1245300,
+          "single": 349800,
+          "married": 758900,
+          "widowed": 111100,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1997",
+        "total_population": {
+          "total": 2413400,
+          "single": 766600,
+          "married": 1478600,
+          "widowed": 128400,
+          "divorced": null
+        },
+        "males": {
+          "total": 1195900,
+          "single": 423600,
+          "married": 737800,
+          "widowed": 21000,
+          "divorced": null
+        },
+        "females": {
+          "total": 1217500,
+          "single": 343000,
+          "married": 740800,
+          "widowed": 107500,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1996",
+        "total_population": {
+          "total": 2357200,
+          "single": 750500,
+          "married": 1428300,
+          "widowed": 136500,
+          "divorced": null
+        },
+        "males": {
+          "total": 1165000,
+          "single": 409500,
+          "married": 717200,
+          "widowed": 23900,
+          "divorced": null
+        },
+        "females": {
+          "total": 1192100,
+          "single": 340900,
+          "married": 711100,
+          "widowed": 112600,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1995",
+        "total_population": {
+          "total": 2304900,
+          "single": 756600,
+          "married": 1383600,
+          "widowed": 125700,
+          "divorced": null
+        },
+        "males": {
+          "total": 1146600,
+          "single": 421600,
+          "married": 692200,
+          "widowed": 20000,
+          "divorced": null
+        },
+        "females": {
+          "total": 1158300,
+          "single": 335000,
+          "married": 691300,
+          "widowed": 105800,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1994",
+        "total_population": {
+          "total": 2280700,
+          "single": 762500,
+          "married": 1349600,
+          "widowed": 133100,
+          "divorced": null
+        },
+        "males": {
+          "total": 1133700,
+          "single": 425800,
+          "married": 674700,
+          "widowed": 21700,
+          "divorced": null
+        },
+        "females": {
+          "total": 1146900,
+          "single": 336700,
+          "married": 674800,
+          "widowed": 111400,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1993",
+        "total_population": {
+          "total": 2242900,
+          "single": 773700,
+          "married": 1310000,
+          "widowed": 124700,
+          "divorced": null
+        },
+        "males": {
+          "total": 1121100,
+          "single": 432300,
+          "married": 657400,
+          "widowed": 20600,
+          "divorced": null
+        },
+        "females": {
+          "total": 1121900,
+          "single": 341400,
+          "married": 652600,
+          "widowed": 104200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1992",
+        "total_population": {
+          "total": 2204900,
+          "single": 774800,
+          "married": 1269000,
+          "widowed": 128300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1098200,
+          "single": 431600,
+          "married": 633400,
+          "widowed": 22400,
+          "divorced": null
+        },
+        "females": {
+          "total": 1106700,
+          "single": 343200,
+          "married": 635600,
+          "widowed": 105900,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1991",
+        "total_population": {
+          "total": 2153700,
+          "single": 760100,
+          "married": 1240000,
+          "widowed": 121300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1077800,
+          "single": 424900,
+          "married": 621600,
+          "widowed": 20100,
+          "divorced": null
+        },
+        "females": {
+          "total": 1076000,
+          "single": 335200,
+          "married": 618400,
+          "widowed": 101200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1990",
+        "total_population": {
+          "total": 2078800,
+          "single": 747200,
+          "married": 1176400,
+          "widowed": 127300,
+          "divorced": null
+        },
+        "males": {
+          "total": 1045600,
+          "single": 422600,
+          "married": 586700,
+          "widowed": 26100,
+          "divorced": null
+        },
+        "females": {
+          "total": 1033200,
+          "single": 324600,
+          "married": 589700,
+          "widowed": 101300,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1989",
+        "total_population": {
+          "total": 2032400,
+          "single": 752800,
+          "married": 1137800,
+          "widowed": 116200,
+          "divorced": null
+        },
+        "males": {
+          "total": 1007900,
+          "single": 418000,
+          "married": 563800,
+          "widowed": 17900,
+          "divorced": null
+        },
+        "females": {
+          "total": 1024500,
+          "single": 334800,
+          "married": 573900,
+          "widowed": 98300,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1988",
+        "total_population": {
+          "total": 1990000,
+          "single": 745700,
+          "married": 1112200,
+          "widowed": 108100,
+          "divorced": null
+        },
+        "males": {
+          "total": 994400,
+          "single": 416100,
+          "married": 553300,
+          "widowed": 17000,
+          "divorced": null
+        },
+        "females": {
+          "total": 995600,
+          "single": 329600,
+          "married": 558900,
+          "widowed": 91100,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1987",
+        "total_population": {
+          "total": 1947600,
+          "single": 735200,
+          "married": 1083300,
+          "widowed": 106900,
+          "divorced": null
+        },
+        "males": {
+          "total": 974100,
+          "single": 410800,
+          "married": 539600,
+          "widowed": 16100,
+          "divorced": null
+        },
+        "females": {
+          "total": 973400,
+          "single": 324400,
+          "married": 543700,
+          "widowed": 90800,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1986",
+        "total_population": {
+          "total": 1906600,
+          "single": 736500,
+          "married": 1039700,
+          "widowed": 108200,
+          "divorced": null
+        },
+        "males": {
+          "total": 948000,
+          "single": 408100,
+          "married": 517100,
+          "widowed": 15500,
+          "divorced": null
+        },
+        "females": {
+          "total": 958600,
+          "single": 328400,
+          "married": 522600,
+          "widowed": 92700,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1985",
+        "total_population": {
+          "total": 1866700,
+          "single": 726600,
+          "married": 1020100,
+          "widowed": 99200,
+          "divorced": null
+        },
+        "males": {
+          "total": 929800,
+          "single": 400100,
+          "married": 506500,
+          "widowed": 16200,
+          "divorced": null
+        },
+        "females": {
+          "total": 936900,
+          "single": 326500,
+          "married": 513700,
+          "widowed": 83000,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1984",
+        "total_population": {
+          "total": 1829000,
+          "single": 714300,
+          "married": 1005100,
+          "widowed": 92800,
+          "divorced": null
+        },
+        "males": {
+          "total": 912200,
+          "single": 393400,
+          "married": 499600,
+          "widowed": 13600,
+          "divorced": null
+        },
+        "females": {
+          "total": 916800,
+          "single": 321000,
+          "married": 505500,
+          "widowed": 79200,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1983",
+        "total_population": {
+          "total": 1791900,
+          "single": 728000,
+          "married": 951200,
+          "widowed": 101700,
+          "divorced": null
+        },
+        "males": {
+          "total": 901700,
+          "single": 404700,
+          "married": 476300,
+          "widowed": 16600,
+          "divorced": null
+        },
+        "females": {
+          "total": 890200,
+          "single": 323400,
+          "married": 474800,
+          "widowed": 85100,
+          "divorced": null
+        }
+      },
+      {
+        "year": "1980",
+        "total_population": {
+          "total": 1651500,
+          "single": 674100,
+          "married": 864600,
+          "widowed": 97100,
+          "divorced": null
+        },
+        "males": {
+          "total": 833500,
+          "single": 375800,
+          "married": 435900,
+          "widowed": 16000,
+          "divorced": null
+        },
+        "females": {
+          "total": 818000,
+          "single": 298300,
+          "married": 428700,
+          "widowed": 81100,
+          "divorced": null
+        }
+      }
+    ]
+  }
+}

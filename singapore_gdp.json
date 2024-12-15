@@ -1,0 +1,536 @@
+{
+  "singapore_gdp_data": {
+    "data_source": "Singapore Department of Statistics",
+    "update_time": "2024",
+    "data": {
+      "annual": [
+        {
+          "year": "2023",
+          "gdp_current_market_prices": 65392.6,
+          "compensation_of_employees": 103176.8,
+          "gross_operating_surplus": 14147.8,
+          "taxes_less_subsidies": 2956.8
+        },
+        {
+          "year": "2022",
+          "gdp_current_market_prices": 64397.7,
+          "compensation_of_employees": 104595.7,
+          "gross_operating_surplus": 13143.2,
+          "taxes_less_subsidies": 2888.1
+        },
+        {
+          "year": "2021",
+          "gdp_current_market_prices": 71372.8,
+          "compensation_of_employees": 90067.8,
+          "gross_operating_surplus": 13346.8,
+          "taxes_less_subsidies": 4061.3
+        },
+        {
+          "year": "2020",
+          "gdp_current_market_prices": 68644.7,
+          "compensation_of_employees": 95721.5,
+          "gross_operating_surplus": 11358.6,
+          "taxes_less_subsidies": 2214.4
+        },
+        {
+          "year": "2019",
+          "gdp_current_market_prices": 62256.1,
+          "compensation_of_employees": 95605.2,
+          "gross_operating_surplus": 10977.1,
+          "taxes_less_subsidies": 2082.3
+        },
+        {
+          "year": "2018",
+          "gdp_current_market_prices": 61684.7,
+          "compensation_of_employees": 96736.8,
+          "gross_operating_surplus": 10034.3,
+          "taxes_less_subsidies": 1898.0
+        },
+        {
+          "year": "2017",
+          "gdp_current_market_prices": 67528.9,
+          "compensation_of_employees": 84618.9,
+          "gross_operating_surplus": 11044.9,
+          "taxes_less_subsidies": 2729.0
+        },
+        {
+          "year": "2016",
+          "gdp_current_market_prices": 65675.2,
+          "compensation_of_employees": 96838.1,
+          "gross_operating_surplus": 10105.8,
+          "taxes_less_subsidies": 1730.7
+        },
+        {
+          "year": "2015",
+          "gdp_current_market_prices": 57851.3,
+          "compensation_of_employees": 106113.8,
+          "gross_operating_surplus": 9441.3,
+          "taxes_less_subsidies": 1395.7
+        },
+        {
+          "year": "2014",
+          "gdp_current_market_prices": 56386.1,
+          "compensation_of_employees": 113330.0,
+          "gross_operating_surplus": 8890.4,
+          "taxes_less_subsidies": 910.9
+        },
+        {
+          "year": "2013",
+          "gdp_current_market_prices": 62155.9,
+          "compensation_of_employees": 94484.2,
+          "gross_operating_surplus": 8901.0,
+          "taxes_less_subsidies": 1496.5
+        },
+        {
+          "year": "2012",
+          "gdp_current_market_prices": 59339.7,
+          "compensation_of_employees": 90788.6,
+          "gross_operating_surplus": 8069.0,
+          "taxes_less_subsidies": -391.6
+        },
+        {
+          "year": "2011",
+          "gdp_current_market_prices": 52284.0,
+          "compensation_of_employees": 87759.4,
+          "gross_operating_surplus": 7190.1,
+          "taxes_less_subsidies": -336.7
+        },
+        {
+          "year": "2010",
+          "gdp_current_market_prices": 51987.3,
+          "compensation_of_employees": 86056.9,
+          "gross_operating_surplus": 5305.4,
+          "taxes_less_subsidies": -1977.3
+        },
+        {
+          "year": "2009",
+          "gdp_current_market_prices": 56476.2,
+          "compensation_of_employees": 73700.4,
+          "gross_operating_surplus": 6280.7,
+          "taxes_less_subsidies": -865.2
+        },
+        {
+          "year": "2008",
+          "gdp_current_market_prices": 54028.7,
+          "compensation_of_employees": 70906.3,
+          "gross_operating_surplus": 3330.9,
+          "taxes_less_subsidies": -3682.1
+        },
+        {
+          "year": "2007",
+          "gdp_current_market_prices": 48444.1,
+          "compensation_of_employees": 70000.3,
+          "gross_operating_surplus": 296.3,
+          "taxes_less_subsidies": -5506.6
+        },
+        {
+          "year": "2006",
+          "gdp_current_market_prices": 48559.2,
+          "compensation_of_employees": 68812.6,
+          "gross_operating_surplus": -8517.3,
+          "taxes_less_subsidies": -11787.7
+        },
+        {
+          "year": "2005",
+          "gdp_current_market_prices": 55252.4,
+          "compensation_of_employees": 62685.5,
+          "gross_operating_surplus": 8292.2,
+          "taxes_less_subsidies": 2107.7
+        },
+        {
+          "year": "2004",
+          "gdp_current_market_prices": 54081.9,
+          "compensation_of_employees": 68853.3,
+          "gross_operating_surplus": 9065.3,
+          "taxes_less_subsidies": 2278.2
+        },
+        {
+          "year": "2003",
+          "gdp_current_market_prices": 49333.1,
+          "compensation_of_employees": 70877.0,
+          "gross_operating_surplus": 8819.6,
+          "taxes_less_subsidies": 2258.9
+        },
+        {
+          "year": "2002",
+          "gdp_current_market_prices": 48370.0,
+          "compensation_of_employees": 67689.1,
+          "gross_operating_surplus": 8622.4,
+          "taxes_less_subsidies": 2209.6
+        },
+        {
+          "year": "2001",
+          "gdp_current_market_prices": 53934.3,
+          "compensation_of_employees": 64365.8,
+          "gross_operating_surplus": 9376.9,
+          "taxes_less_subsidies": 2993.1
+        },
+        {
+          "year": "2000",
+          "gdp_current_market_prices": 52770.6,
+          "compensation_of_employees": 72767.1,
+          "gross_operating_surplus": 8760.7,
+          "taxes_less_subsidies": 2173.3
+        },
+        {
+          "year": "1999",
+          "gdp_current_market_prices": 47022.9,
+          "compensation_of_employees": 73176.0,
+          "gross_operating_surplus": 8415.9,
+          "taxes_less_subsidies": 2140.0
+        },
+        {
+          "year": "1998",
+          "gdp_current_market_prices": 46486.0,
+          "compensation_of_employees": 69128.8,
+          "gross_operating_surplus": 8994.7,
+          "taxes_less_subsidies": 2091.6
+        },
+        {
+          "year": "1997",
+          "gdp_current_market_prices": 52062.7,
+          "compensation_of_employees": 61510.0,
+          "gross_operating_surplus": 9591.2,
+          "taxes_less_subsidies": 2748.8
+        },
+        {
+          "year": "1996",
+          "gdp_current_market_prices": 50653.1,
+          "compensation_of_employees": 65756.5,
+          "gross_operating_surplus": 10059.2,
+          "taxes_less_subsidies": 2093.0
+        },
+        {
+          "year": "1995",
+          "gdp_current_market_prices": 45169.4,
+          "compensation_of_employees": 62313.9,
+          "gross_operating_surplus": 9206.0,
+          "taxes_less_subsidies": 1978.2
+        },
+        {
+          "year": "1994",
+          "gdp_current_market_prices": 44604.6,
+          "compensation_of_employees": 60044.5,
+          "gross_operating_surplus": 8823.6,
+          "taxes_less_subsidies": 2020.1
+        },
+        {
+          "year": "1993",
+          "gdp_current_market_prices": 50010.3,
+          "compensation_of_employees": 56920.8,
+          "gross_operating_surplus": 9538.2,
+          "taxes_less_subsidies": 2661.9
+        },
+        {
+          "year": "1992",
+          "gdp_current_market_prices": 48604.7,
+          "compensation_of_employees": 60178.1,
+          "gross_operating_surplus": 8716.1,
+          "taxes_less_subsidies": 1968.2
+        },
+        {
+          "year": "1991",
+          "gdp_current_market_prices": 43752.0,
+          "compensation_of_employees": 57566.1,
+          "gross_operating_surplus": 8652.6,
+          "taxes_less_subsidies": 1861.6
+        },
+        {
+          "year": "1990",
+          "gdp_current_market_prices": 43340.6,
+          "compensation_of_employees": 55451.9,
+          "gross_operating_surplus": 8219.2,
+          "taxes_less_subsidies": 1830.4
+        },
+        {
+          "year": "1989",
+          "gdp_current_market_prices": 48786.2,
+          "compensation_of_employees": 48270.0,
+          "gross_operating_surplus": 9091.2,
+          "taxes_less_subsidies": 2436.5
+        },
+        {
+          "year": "1988",
+          "gdp_current_market_prices": 47073.2,
+          "compensation_of_employees": 54617.2,
+          "gross_operating_surplus": 7893.7,
+          "taxes_less_subsidies": 1730.0
+        },
+        {
+          "year": "1987",
+          "gdp_current_market_prices": 42221.8,
+          "compensation_of_employees": 56236.5,
+          "gross_operating_surplus": 7731.5,
+          "taxes_less_subsidies": 1551.4
+        },
+        {
+          "year": "1986",
+          "gdp_current_market_prices": 41582.5,
+          "compensation_of_employees": 54750.8,
+          "gross_operating_surplus": 7749.3,
+          "taxes_less_subsidies": 1531.7
+        },
+        {
+          "year": "1985",
+          "gdp_current_market_prices": 46809.4,
+          "compensation_of_employees": 48864.5,
+          "gross_operating_surplus": 7913.3,
+          "taxes_less_subsidies": 2218.0
+        },
+        {
+          "year": "1984",
+          "gdp_current_market_prices": 45011.8,
+          "compensation_of_employees": 50790.7,
+          "gross_operating_surplus": 7651.4,
+          "taxes_less_subsidies": 1939.8
+        },
+        {
+          "year": "1983",
+          "gdp_current_market_prices": 39871.0,
+          "compensation_of_employees": 52181.2,
+          "gross_operating_surplus": 7336.7,
+          "taxes_less_subsidies": 1862.1
+        },
+        {
+          "year": "1982",
+          "gdp_current_market_prices": 39042.4,
+          "compensation_of_employees": 51638.0,
+          "gross_operating_surplus": 7344.8,
+          "taxes_less_subsidies": 1730.0
+        },
+        {
+          "year": "1981",
+          "gdp_current_market_prices": 43614.3,
+          "compensation_of_employees": 46443.3,
+          "gross_operating_surplus": 7213.7,
+          "taxes_less_subsidies": 2265.6
+        },
+        {
+          "year": "1980",
+          "gdp_current_market_prices": 42271.6,
+          "compensation_of_employees": 49667.6,
+          "gross_operating_surplus": 7551.6,
+          "taxes_less_subsidies": 1927.4
+        },
+        {
+          "year": "1979",
+          "gdp_current_market_prices": 36806.2,
+          "compensation_of_employees": 52288.9,
+          "gross_operating_surplus": 7140.7,
+          "taxes_less_subsidies": 1761.3
+        },
+        {
+          "year": "1978",
+          "gdp_current_market_prices": 36447.5,
+          "compensation_of_employees": 51587.6,
+          "gross_operating_surplus": 7540.5,
+          "taxes_less_subsidies": 1669.6
+        },
+        {
+          "year": "1977",
+          "gdp_current_market_prices": 40254.5,
+          "compensation_of_employees": 46042.1,
+          "gross_operating_surplus": 7453.1,
+          "taxes_less_subsidies": 2156.8
+        },
+        {
+          "year": "1976",
+          "gdp_current_market_prices": 39248.2,
+          "compensation_of_employees": 48274.6,
+          "gross_operating_surplus": 7557.5,
+          "taxes_less_subsidies": 1806.2
+        },
+        {
+          "year": "1975",
+          "gdp_current_market_prices": 34585.9,
+          "compensation_of_employees": 49428.9,
+          "gross_operating_surplus": 6743.5,
+          "taxes_less_subsidies": 1633.7
+        },
+        {
+          "year": "1974",
+          "gdp_current_market_prices": 34116.6,
+          "compensation_of_employees": 51660.8,
+          "gross_operating_surplus": 7125.7,
+          "taxes_less_subsidies": 1598.8
+        },
+        {
+          "year": "1973",
+          "gdp_current_market_prices": 37729.3,
+          "compensation_of_employees": 46905.8,
+          "gross_operating_surplus": 6788.3,
+          "taxes_less_subsidies": 2024.0
+        },
+        {
+          "year": "1972",
+          "gdp_current_market_prices": 36341.6,
+          "compensation_of_employees": 47206.8,
+          "gross_operating_surplus": 6806.4,
+          "taxes_less_subsidies": 1766.7
+        },
+        {
+          "year": "1971",
+          "gdp_current_market_prices": 32421.5,
+          "compensation_of_employees": 49179.4,
+          "gross_operating_surplus": 6535.0,
+          "taxes_less_subsidies": 1568.3
+        },
+        {
+          "year": "1970",
+          "gdp_current_market_prices": 31741.1,
+          "compensation_of_employees": 47937.8,
+          "gross_operating_surplus": 6631.4,
+          "taxes_less_subsidies": 1468.0
+        },
+        {
+          "year": "1969",
+          "gdp_current_market_prices": 35742.0,
+          "compensation_of_employees": 44236.6,
+          "gross_operating_surplus": 6608.9,
+          "taxes_less_subsidies": 1811.6
+        },
+        {
+          "year": "1968",
+          "gdp_current_market_prices": 34669.0,
+          "compensation_of_employees": 45206.6,
+          "gross_operating_surplus": 6033.3,
+          "taxes_less_subsidies": 1349.9
+        },
+        {
+          "year": "1967",
+          "gdp_current_market_prices": 30245.4,
+          "compensation_of_employees": 45885.8,
+          "gross_operating_surplus": 5712.0,
+          "taxes_less_subsidies": 1061.1
+        },
+        {
+          "year": "1966",
+          "gdp_current_market_prices": 29013.6,
+          "compensation_of_employees": 46609.7,
+          "gross_operating_surplus": 5550.9,
+          "taxes_less_subsidies": 928.5
+        },
+        {
+          "year": "1965",
+          "gdp_current_market_prices": 32375.8,
+          "compensation_of_employees": 40583.9,
+          "gross_operating_surplus": 5094.1,
+          "taxes_less_subsidies": 1117.7
+        },
+        {
+          "year": "1964",
+          "gdp_current_market_prices": 30745.6,
+          "compensation_of_employees": 41288.9,
+          "gross_operating_surplus": 4099.3,
+          "taxes_less_subsidies": 89.5
+        },
+        {
+          "year": "1963",
+          "gdp_current_market_prices": 27560.9,
+          "compensation_of_employees": 40733.7,
+          "gross_operating_surplus": 3756.1,
+          "taxes_less_subsidies": -20.2
+        },
+        {
+          "year": "1962",
+          "gdp_current_market_prices": 27014.0,
+          "compensation_of_employees": 37305.3,
+          "gross_operating_surplus": 3331.6,
+          "taxes_less_subsidies": -37.6
+        },
+        {
+          "year": "1961",
+          "gdp_current_market_prices": 30426.8,
+          "compensation_of_employees": 30427.6,
+          "gross_operating_surplus": 3469.8,
+          "taxes_less_subsidies": 683.5
+        },
+        {
+          "year": "1960",
+          "gdp_current_market_prices": 29499.2,
+          "compensation_of_employees": 32522.8,
+          "gross_operating_surplus": 4461.3,
+          "taxes_less_subsidies": 1376.1
+        },
+        {
+          "year": "1959",
+          "gdp_current_market_prices": 27118.9,
+          "compensation_of_employees": 37808.2,
+          "gross_operating_surplus": 4936.0,
+          "taxes_less_subsidies": 1171.9
+        },
+        {
+          "year": "1958",
+          "gdp_current_market_prices": 25911.3,
+          "compensation_of_employees": 37699.6,
+          "gross_operating_surplus": 4848.5,
+          "taxes_less_subsidies": 1106.3
+        },
+        {
+          "year": "1957",
+          "gdp_current_market_prices": 29303.1,
+          "compensation_of_employees": 34257.1,
+          "gross_operating_surplus": 5179.7,
+          "taxes_less_subsidies": 1539.2
+        },
+        {
+          "year": "1956",
+          "gdp_current_market_prices": 29217.2,
+          "compensation_of_employees": 37835.7,
+          "gross_operating_surplus": 5251.2,
+          "taxes_less_subsidies": 1122.5
+        },
+        {
+          "year": "1955",
+          "gdp_current_market_prices": 25484.6,
+          "compensation_of_employees": 39499.7,
+          "gross_operating_surplus": 5351.9,
+          "taxes_less_subsidies": 1039.1
+        },
+        {
+          "year": "1954",
+          "gdp_current_market_prices": 24763.3,
+          "compensation_of_employees": 37817.7,
+          "gross_operating_surplus": 4737.6,
+          "taxes_less_subsidies": 984.8
+        },
+        {
+          "year": "1953",
+          "gdp_current_market_prices": 26276.8,
+          "compensation_of_employees": 32889.1,
+          "gross_operating_surplus": 4649.2,
+          "taxes_less_subsidies": 1323.7
+        },
+        {
+          "year": "1952",
+          "gdp_current_market_prices": 25873.9,
+          "compensation_of_employees": 33734.2,
+          "gross_operating_surplus": 3558.3,
+          "taxes_less_subsidies": 911.3
+        },
+        {
+          "year": "1951",
+          "gdp_current_market_prices": 22058.6,
+          "compensation_of_employees": 34043.9,
+          "gross_operating_surplus": 3166.3,
+          "taxes_less_subsidies": 872.1
+        },
+        {
+          "year": "1950",
+          "gdp_current_market_prices": 21114.5,
+          "compensation_of_employees": 32477.9,
+          "gross_operating_surplus": 3227.4,
+          "taxes_less_subsidies": 818.3
+        },
+        {
+          "year": "1949",
+          "gdp_current_market_prices": 23093.4,
+          "compensation_of_employees": 28428.8,
+          "gross_operating_surplus": 3737.1,
+          "taxes_less_subsidies": 1216.0
+        }
+      ],
+      "quarterly": []
+    }
+  }
+}
