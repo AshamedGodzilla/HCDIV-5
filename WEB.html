@@ -87,14 +87,18 @@
       }
       .chart-container {
         width: 900px;
-        height: 450px;
+        height: 550px;
         margin: 20px auto;
         background: white;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       }
-      h1,
+      h1{
+        margin-bottom: 80px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif      
+      }
+
       h2 {
         margin-bottom: 20px;
       }
@@ -106,14 +110,15 @@
       }
       .tooltip {
         position: absolute;
-        padding: 8px;
+        padding: 10px;
         background: rgba(0, 0, 0, 0.8);
         color: white;
-        border-radius: 4px;
-        font-size: 12px;
+        border-radius: 6px;
+        font-size: 14px;
         pointer-events: none;
-        display: none;
         z-index: 1000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.3s;
       }
       .axis-label {
         font-size: 12px;
@@ -126,6 +131,11 @@
       .legend {
         font-size: 12px;
         fill: #333;
+      }
+      strong {
+        font-size: 24px;
+        color: #eefaa2;
+        font-weight: bold;
       }
     </style>
   </head>
@@ -157,45 +167,65 @@
         <div>
           <h1>Introduction</h1>
           <p>
-            Population changes are more than just numerical fluctuations—they
-            are a comprehensive reflection of social culture and economic
-            policies.
+            Population changes are more than just numerical fluctuations—they reflect the interplay of social, cultural, economic, and policy factors. 
+            In modern society, shifts in population dynamics deeply influence the following areas:
+          </p>
+          <p>
+            <strong>1. Social and Cultural Impact:</strong> Changes in population structure reshape family compositions, marriage patterns, and community relationships. For example, low marriage and birth rates in East Asia are leading to the gradual erosion of traditional family structures and an increase in social isolation.
+          </p>
+          <p>
+            <strong>2. Economic Development:</strong> Population growth or aging directly impacts labor market dynamics and national economic growth potential. For instance, Singapore has mitigated labor shortages by welcoming foreign workers but faces challenges in integrating these migrants into its society.
+          </p>
+          <p>
+            <strong>3. Policy Implications:</strong> Governments must implement balanced population policies to ensure sustainable development. To address aging populations, Singapore has introduced measures such as raising the retirement age and enhancing childcare benefits to support young families.
+          </p>
+          <p>
+            In the following sections, we will delve into Singapore's marriage trends, population structure, and the dynamics of foreign populations, uncovering their dual impacts on society and the economy.
           </p>
         </div>
       </div>
       <div class="section" id="section1">
         <div>
-          <h2>East Asian Marriage Trends</h2>
+          <h2>Singapore Marriage Trends</h2>
           <p>
-            Comparative Analysis of Divorce and Fertility Rates: Singapore vs
-            Japan and South Korea
+            Married population rate vs. GDP
           </p>
           <div class="chart-container" id="chart1"></div>
         </div>
       </div>
       <div class="section" id="section2">
         <div>
-          <h2>Population Structure</h2>
-          <p>Examining the Age Distribution in Singapore</p>
+          <h2>Population Growth Rate</h2>
+          <p>In the years that followed, the GDP growth rate picked up again, probably thanks to the optimisation of the economic structure, the innovation-driven development and the rise of new industries.</p>
           <div class="chart-container" id="chart2"></div>
         </div>
       </div>
       <div class="section" id="section3">
         <div>
-          <h2>Migration and Urban Dynamics</h2>
-          <p>Migrants Sustain Cities: But Where Do They Reside?</p>
+          <h2>Non-Resident Population Ratio</h2>
+          <p>There may be a positive correlation between the proportion of non-resident population and GDP</p>
           <div class="chart-container" id="chart3"></div>
         </div>
       </div>
       <div class="section" id="summary">
         <div>
-          <h2>Summary</h2>
-          <p>
-            The future is written by each of us, collectively creating a better
-            society.
-          </p>
+            <h1>Summary</h1>
+            <p>
+                From the analysis above, we observe the significant challenges and potential solutions related to population issues in East Asia and Singapore:
+            </p>
+            <p>
+                <strong >1. Lessons from East Asia:</strong> Low marriage and birth rates result in diminished economic vitality and increased social isolation. Countries like Japan and South Korea are experimenting with pro-birth policies, but the results remain limited and offer lessons for others.
+            </p>
+            <p>
+                <strong>2. Singapore's Approach:</strong> Singapore maintains economic vibrancy by integrating foreign labor but must address social cohesion and inclusivity. Fertility subsidies and childcare benefits help alleviate the financial burdens of young families, creating an environment that encourages population growth.
+            </p>
+            <p>
+                <strong>3. Looking Ahead:</strong> Tackling population challenges requires collaborative efforts across education, healthcare, and technology to ensure sustainable social and economic development.
+            </p>
+            <p>
+                The future is written by all of us. By working together, we can address the dual challenges of population aging and declining birth rates, building a more prosperous and inclusive world for future generations.
+            </p>
         </div>
-      </div>
     </div>
 
     <div id="tooltip" class="tooltip"></div>
