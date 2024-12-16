@@ -60,21 +60,21 @@ section,
 }
 
 #img-two {
-    background-image: url(main..img4.jpg);
+    background-image: url(main.img4.jpg);
 }
 
 .content-one {
-    background: url(main..img1.jpg) no-repeat fixed center;
+    background: url(main.img1.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
 .content-two {
-    background: url(main..img2.jpg) no-repeat fixed center;
+    background: url(main.img2.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
 .content-three {
-    background: url(main..img3.jpg) no-repeat fixed center;
+    background: url(main.img3.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
